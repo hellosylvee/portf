@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta name="description" content="Sylvia Lee Design Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" type="image/ico" href="../images/favicon1.ico"/>
+
+    <title>Sylvee Lee Designs</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.0.6/material.grey-pink.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <%= stylesheet_link_tag :normalize %>
+    <%= stylesheet_link_tag :styles %>
+
+    <title><%= current_page.data.title || "Sylvee Lee Portfolio" %></title>
+
+    <script src="https://code.getmdl.io/1.0.6/material.min.js"></script>
+    <script src="https://use.fontawesome.com/7006510a8d.js"></script>
+    <%= javascript_include_tag :all %>
+  </head>
+  <body class="<%= page_classes %>">
+    <%= yield %>
+  </body>
+</html>

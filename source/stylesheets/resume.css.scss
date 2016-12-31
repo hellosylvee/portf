@@ -1,0 +1,27 @@
+@import url("stylesheets/about.css");
+
+.mdl-cell {
+  border: solid green 1px;
+}
+
+.mdl-cell--12-col {
+  border: solid red 1px;
+}
+
+.mdl-cell--8-col {
+  border: solid purple 1px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 10px;
+  li {
+    display: inline;
+    padding: 0px 20px;
+  }
+}
+
+img.pivotal-size {
+  width: 25%;
+}
