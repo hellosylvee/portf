@@ -1,16 +1,20 @@
 @import url("stylesheets/about.css");
 
-// .mdl-cell {
-//   border: solid green 1px;
-// }
-//
-// .mdl-cell--3-col {
-//   border: solid red 1px;
-// }
-//
-// .mdl-list {
-//   border: solid orange 1px;
-// }
+.h4 {
+  margin: 0;
+}
+
+.pan {
+    margin-bottom: 0px;
+}
+
+.weight-bold {
+  font-weight: bold;
+}
+
+.mdl-list__item {
+  display: block;
+}
 
 ul {
   list-style-type: none;
@@ -20,16 +24,4 @@ ul {
     display: inline;
     padding: 0px 20px;
   }
-}
-
-.h4 {
-  margin: 0;
-}
-
-.mdl-list__item {
-  display: block;
-}
-
-.weight-bold {
-  font-weight: bold;
 }
