@@ -87,18 +87,6 @@
   padding-bottom: 0;
 }
 
-// .portfolio-blog-card-full-bg {
-//   background: url(images/example-blog03.jpg) center / cover;
-// }
-//
-// .portfolio-blog-card-event-bg {
-//   background: url(images/example-blog05.jpg) center / cover;
-// }
-//
-// .portfolio-blog-card-strip-bg {
-//   background: url(images/example-blog06.jpg) center / cover;
-// }
-
 .portfolio-blog-card-compact .mdl-card__title {
   padding-bottom: 0;
 }
@@ -165,7 +153,17 @@ img.article-image {
 }
 
 /* STYLES */
+a {
+  text-decoration: none;
+}
+
 .button-style {
   a {text-decoration: none;}
   margin-bottom: 10px;
+}
+
+
+.h4, h4.mdl-typography--headline {
+  color: #666666;
+  font-size: 20px;
 }
