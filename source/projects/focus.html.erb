@@ -13,8 +13,17 @@
                     <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">Context</h3>
                     <div class="mdl-cell mdl-cell--12-col mdl-card__supporting-text no-padding">
                         <p>
-                            Excepteur reprehenderit sint exercitation ipsum consequat qui sit id velit elit. Velit anim eiusmod labore sit amet. Voluptate voluptate irure occaecat deserunt incididunt esse in. Sunt velit aliquip sunt elit ex nulla reprehenderit qui ut eiusmod ipsum do. Duis veniam reprehenderit laborum occaecat id proident nulla veniam. Duis enim deserunt voluptate aute veniam sint pariatur exercitation. Irure mollit est sit labore est deserunt pariatur duis aute laboris cupidatat. Consectetur consequat esse est sit veniam adipisicing ipsum enim irure.
+                            FocusOne is an insurance holding company that provides a wide range of commercial and personal property and casualty insurance products. It is the second largest writer of US commerical property casualty insurance, and they underwrite for 2,000 large accounts that are worth in billions. FocusOne stakeholders want to build a solution that analyze natural disasters and human risks.
                         </p>
+                        <p>
+                            The business requirements for this app were a(n):
+                        </p>
+                        <ul class='mdl-list'>
+                            <li class="mdl-list__item">responsive web application built within existing system</li>
+                            <li class="mdl-list__item">view account data in readable chunks</li>
+                            <li class="mdl-list__item">check for quality data and anomalies</li>
+                            <li class="mdl-list__item">alert for inaccurate and/or missing data</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="mdl-grid portfolio-width">
@@ -24,8 +33,18 @@
                     <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">Discovery</h3>
                     <div class="mdl-cell mdl-cell--12-col mdl-card__supporting-text no-padding">
                         <p>
-                            Excepteur reprehenderit sint exercitation ipsum consequat qui sit id velit elit. Velit anim eiusmod labore sit amet. Voluptate voluptate irure occaecat deserunt incididunt esse in. Sunt velit aliquip sunt elit ex nulla reprehenderit qui ut eiusmod ipsum do. Duis veniam reprehenderit laborum occaecat id proident nulla veniam. Duis enim deserunt voluptate aute veniam sint pariatur exercitation. Irure mollit est sit labore est deserunt pariatur duis aute laboris cupidatat. Consectetur consequat esse est sit veniam adipisicing ipsum enim irure.
+                            FocusOne has a unique problem. Currently, FocusOne underwrites policies based on FocusOne proprietary systems and account holder's Statement of Values (SOV) which may contain over 1,000 rows and columns in excel spreadsheet. For underwriters (also known as account executives) who write these accounts, underwriting new and/or update policies could take weeks, even months. Naturally, I wondered what were the pain points and bottlenecks. And why?
                         </p>
+                        <p class="pull-quote">"What are the underwriters looking for in account holder's Statement of Values? And why?"</p>
+                        <p>
+                            I dived into understanding the underwriting process. With service blueprint, I wanted to see all the workings from meeting a potential account holder to managing past policies. This activity helped in building domain knowledge and preparing critical questions for user interviews. From the interviews and synthesis, I recognized underwriting is a huge undertaking. Common problems and insights that I came across:
+                        </p>
+                        <ul class='mdl-list'>
+                            <li class="mdl-list__item">every SOV is unique with customized template</li>
+                            <li class="mdl-list__item">all SOV needs to be approved by a CURE member</li>
+                            <li class="mdl-list__item">underwriters have different accounts and underwriting workflows</li>
+                            <li class="mdl-list__item">risks are analyzed with proprietary software and eyeballing spreadsheets</li>
+                        </ul>
                         <img class="article-image" src="../images/action-interview.jpg" border="0" alt="">
                     </div>
                 </div>
@@ -36,8 +55,18 @@
                     <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">Framing</h3>
                     <div class="mdl-cell mdl-cell--12-col mdl-card__supporting-text no-padding">
                         <p>
-                            Excepteur reprehenderit sint exercitation ipsum consequat qui sit id velit elit. Velit anim eiusmod labore sit amet. Voluptate voluptate irure occaecat deserunt incididunt esse in. Sunt velit aliquip sunt elit ex nulla reprehenderit qui ut eiusmod ipsum do. Duis veniam reprehenderit laborum occaecat id proident nulla veniam. Duis enim deserunt voluptate aute veniam sint pariatur exercitation. Irure mollit est sit labore est deserunt pariatur duis aute laboris cupidatat. Consectetur consequat esse est sit veniam adipisicing ipsum enim irure.
+                            From synthesis, I realized that underwriters prioritize inconsistencies and risks in SOV data and natural disaster risks. For SOV data risk, a restaurant that is near an old gas station is given a higher quote than a restaurant in the suburbs. For natural disaster risk, a warehouse in an earthquake zone is quoted higher than an office building in New Haven. To generate software solutions, I reframed my mindset with a "How Might We..." statement:
                         </p>
+                        <p class="pull-quote">"How might we show SOV data anomalies and natural disasters for a single account?"</p>
+                        <p>
+                            With the project team, I brainstormed for solution ideas that could easily show missing/inaccurate data and show natural disaster risks:
+                        </p>
+                        <ul class='mdl-list'>
+                            <li class="mdl-list__item">list high-level details of account</li>
+                            <li class="mdl-list__item">show accuracy percentage for likelihood of risk</li>
+                            <li class="mdl-list__item">show natural disaster sections in map view</li>
+                            <li class="mdl-list__item">highlight missing/inaccurate SOV data</li>
+                        </ul>
                         <img class="article-image" src="../images/action-designstudio.jpg" border="0" alt="">
                     </div>
                 </div>
@@ -48,7 +77,7 @@
                     <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline">Working in Iterations</h3>
                     <div class="mdl-cell mdl-cell--12-col mdl-card__supporting-text no-padding">
                         <p>
-                            Excepteur reprehenderit sint exercitation ipsum consequat qui sit id velit elit. Velit anim eiusmod labore sit amet. Voluptate voluptate irure occaecat deserunt incididunt esse in. Sunt velit aliquip sunt elit ex nulla reprehenderit qui ut eiusmod ipsum do. Duis veniam reprehenderit laborum occaecat id proident nulla veniam. Duis enim deserunt voluptate aute veniam sint pariatur exercitation. Irure mollit est sit labore est deserunt pariatur duis aute laboris cupidatat. Consectetur consequat esse est sit veniam adipisicing ipsum enim irure.
+                            After getting our solution ideas validated from underwriters, I prepared for designing software. For initial iterations, I worked with the project team to extract critical data components in one cohesive interface. This is a work in progress...
                         </p>
                         <img class="article-image" src="../images/example-focus-iteration.png" border="0" alt="">
                     </div>
